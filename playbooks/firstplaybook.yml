@@ -10,6 +10,5 @@
         name: user1
         state: present
         shell: /bin/bash
-        password: '*'
         create_home: yes
 
