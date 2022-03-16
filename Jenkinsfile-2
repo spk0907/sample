@@ -4,7 +4,7 @@ pipeline {
     stage('Hello') {
       steps {
         
-        sh 'ansible-playbook playbooks/firstplaybook.yml ' 
+        sh 'ansible-playbook playbooks/firstplaybook.yml  -b ' 
       }
     }
   }
